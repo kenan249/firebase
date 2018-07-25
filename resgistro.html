@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Work!</title>
-
+	<title>Resgistrate!</title>
+	
 </head>
 <body>
-
-	<div id="root"></div>
-	<h1>Inicio de sesion</h1>
-  <input type="email" name="email" id="email" value="email" />
-  <input type="password" name="password" id="password" value="contraseña" />
-	<button id="login">Inicia con Google</button>
-  <button id="singup">Registrar </button>
-  <button id="log"> Login</button>
-  
-  
+	<div width="100px">
+		<input type="email" name="email" id="email" />
+		<input type="nombre" name="nombre" id="nombre" />
+		<input type="password" name="pass" id="pass"/>
+	</div>
+	<button id="guardar">Guardar1</button>
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 
-  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -34,8 +30,7 @@
   };
   firebase.initializeApp(config);
 </script>
-
-<script src="app.js"></script>
+	
 <script src="registro.js"></script>
 </body>
 </html>
